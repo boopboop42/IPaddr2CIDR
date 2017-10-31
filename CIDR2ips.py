@@ -20,6 +20,6 @@ with open('parse_ips.txt', 'r') as\
                 print(addr)
     except ValueError:
         pass
-print('Network(s) contain ' + str(counter) + ' adresses.')
+print('Network(s) contain ' + str(counter) + ' addresses.')
 
 
